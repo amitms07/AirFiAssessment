@@ -90,7 +90,7 @@ class LoginViewController: UIViewController {
     private func setupNetworkMonitor() {
         NetworkMonitor.shared.onConnect = { [weak self] in
             DispatchQueue.main.async {
-                self?.showToast(message: "✅ Back online")
+                self?.showToast(message: "Back online")
                 self?.viewModel.syncArticles { success in
                     DispatchQueue.main.async {
                         let message = success ? "Auto-sync completed successfully." : "Auto-sync failed."
@@ -102,7 +102,7 @@ class LoginViewController: UIViewController {
 
         NetworkMonitor.shared.onDisconnect = { [weak self] in
             DispatchQueue.main.async {
-                self?.showToast(message: "⚠️ No internet connection")
+                self?.showToast(message: "No internet connection")
             }
         }
     }
