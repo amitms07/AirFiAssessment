@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23788.4" systemVersion="24F74" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ArticleDetail" representedClassName="ArticleDetail" syncable="YES">
+        <attribute name="approvedBy" optional="YES" attributeType="Transformable" valueTransformerName="[String]"/>
+        <attribute name="fullContent" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ArticleMetadata" representedClassName="ArticleMetadata" syncable="YES">
+        <attribute name="author" optional="YES" attributeType="String"/>
+        <attribute name="descriptionText" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="version" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+</model>

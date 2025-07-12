@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AF98ED52E1FDC5B00EACD16 /* ArticleMetadata+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF98ED42E1FDC5B00EACD16 /* ArticleMetadata+CoreDataProperties.swift */; };
+		4AF98ED62E1FDC5B00EACD16 /* ArticleMetadata+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF98ED32E1FDC5B00EACD16 /* ArticleMetadata+CoreDataClass.swift */; };
+		4AF98ED92E1FDCEE00EACD16 /* ArticleDetail+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF98ED82E1FDCEE00EACD16 /* ArticleDetail+CoreDataProperties.swift */; };
+		4AF98EDA2E1FDCEE00EACD16 /* ArticleDetail+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF98ED72E1FDCEE00EACD16 /* ArticleDetail+CoreDataClass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AF98E952E1FD5D600EACD16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AF98E732E1FD5D300EACD16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AF98E7A2E1FD5D300EACD16;
+			remoteInfo = AirFiAssessment;
+		};
+		4AF98E9F2E1FD5D600EACD16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AF98E732E1FD5D300EACD16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AF98E7A2E1FD5D300EACD16;
+			remoteInfo = AirFiAssessment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AF98E7B2E1FD5D300EACD16 /* AirFiAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirFiAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF98E942E1FD5D600EACD16 /* AirFiAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirFiAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF98E9E2E1FD5D600EACD16 /* AirFiAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirFiAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF98ED32E1FDC5B00EACD16 /* ArticleMetadata+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArticleMetadata+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4AF98ED42E1FDC5B00EACD16 /* ArticleMetadata+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArticleMetadata+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4AF98ED72E1FDCEE00EACD16 /* ArticleDetail+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArticleDetail+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4AF98ED82E1FDCEE00EACD16 /* ArticleDetail+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArticleDetail+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4AF98EA62E1FD5D600EACD16 /* Exceptions for "AirFiAssessment" folder in "AirFiAssessment" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4AF98E7A2E1FD5D300EACD16 /* AirFiAssessment */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4AF98E7D2E1FD5D300EACD16 /* AirFiAssessment */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4AF98EA62E1FD5D600EACD16 /* Exceptions for "AirFiAssessment" folder in "AirFiAssessment" target */,
+			);
+			path = AirFiAssessment;
+			sourceTree = "<group>";
+		};
+		4AF98E972E1FD5D600EACD16 /* AirFiAssessmentTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AirFiAssessmentTests;
+			sourceTree = "<group>";
+		};
+		4AF98EA12E1FD5D600EACD16 /* AirFiAssessmentUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AirFiAssessmentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AF98E782E1FD5D300EACD16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF98E912E1FD5D600EACD16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF98E9B2E1FD5D600EACD16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AF98E722E1FD5D300EACD16 = {
+			isa = PBXGroup;
+			children = (
+				4AF98ED72E1FDCEE00EACD16 /* ArticleDetail+CoreDataClass.swift */,
+				4AF98ED82E1FDCEE00EACD16 /* ArticleDetail+CoreDataProperties.swift */,
+				4AF98ED32E1FDC5B00EACD16 /* ArticleMetadata+CoreDataClass.swift */,
+				4AF98ED42E1FDC5B00EACD16 /* ArticleMetadata+CoreDataProperties.swift */,
+				4AF98E7D2E1FD5D300EACD16 /* AirFiAssessment */,
+				4AF98E972E1FD5D600EACD16 /* AirFiAssessmentTests */,
+				4AF98EA12E1FD5D600EACD16 /* AirFiAssessmentUITests */,
+				4AF98E7C2E1FD5D300EACD16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AF98E7C2E1FD5D300EACD16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AF98E7B2E1FD5D300EACD16 /* AirFiAssessment.app */,
+				4AF98E942E1FD5D600EACD16 /* AirFiAssessmentTests.xctest */,
+				4AF98E9E2E1FD5D600EACD16 /* AirFiAssessmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AF98E7A2E1FD5D300EACD16 /* AirFiAssessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AF98EA72E1FD5D600EACD16 /* Build configuration list for PBXNativeTarget "AirFiAssessment" */;
+			buildPhases = (
+				4AF98E772E1FD5D300EACD16 /* Sources */,
+				4AF98E782E1FD5D300EACD16 /* Frameworks */,
+				4AF98E792E1FD5D300EACD16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4AF98E7D2E1FD5D300EACD16 /* AirFiAssessment */,
+			);
+			name = AirFiAssessment;
+			packageProductDependencies = (
+			);
+			productName = AirFiAssessment;
+			productReference = 4AF98E7B2E1FD5D300EACD16 /* AirFiAssessment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AF98E932E1FD5D600EACD16 /* AirFiAssessmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AF98EAC2E1FD5D600EACD16 /* Build configuration list for PBXNativeTarget "AirFiAssessmentTests" */;
+			buildPhases = (
+				4AF98E902E1FD5D600EACD16 /* Sources */,
+				4AF98E912E1FD5D600EACD16 /* Frameworks */,
+				4AF98E922E1FD5D600EACD16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AF98E962E1FD5D600EACD16 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4AF98E972E1FD5D600EACD16 /* AirFiAssessmentTests */,
+			);
+			name = AirFiAssessmentTests;
+			packageProductDependencies = (
+			);
+			productName = AirFiAssessmentTests;
+			productReference = 4AF98E942E1FD5D600EACD16 /* AirFiAssessmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4AF98E9D2E1FD5D600EACD16 /* AirFiAssessmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AF98EAF2E1FD5D600EACD16 /* Build configuration list for PBXNativeTarget "AirFiAssessmentUITests" */;
+			buildPhases = (
+				4AF98E9A2E1FD5D600EACD16 /* Sources */,
+				4AF98E9B2E1FD5D600EACD16 /* Frameworks */,
+				4AF98E9C2E1FD5D600EACD16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AF98EA02E1FD5D600EACD16 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4AF98EA12E1FD5D600EACD16 /* AirFiAssessmentUITests */,
+			);
+			name = AirFiAssessmentUITests;
+			packageProductDependencies = (
+			);
+			productName = AirFiAssessmentUITests;
+			productReference = 4AF98E9E2E1FD5D600EACD16 /* AirFiAssessmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AF98E732E1FD5D300EACD16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					4AF98E7A2E1FD5D300EACD16 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					4AF98E932E1FD5D600EACD16 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 4AF98E7A2E1FD5D300EACD16;
+					};
+					4AF98E9D2E1FD5D600EACD16 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 4AF98E7A2E1FD5D300EACD16;
+					};
+				};
+			};
+			buildConfigurationList = 4AF98E762E1FD5D300EACD16 /* Build configuration list for PBXProject "AirFiAssessment" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AF98E722E1FD5D300EACD16;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4AF98E7C2E1FD5D300EACD16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AF98E7A2E1FD5D300EACD16 /* AirFiAssessment */,
+				4AF98E932E1FD5D600EACD16 /* AirFiAssessmentTests */,
+				4AF98E9D2E1FD5D600EACD16 /* AirFiAssessmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AF98E792E1FD5D300EACD16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF98E922E1FD5D600EACD16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF98E9C2E1FD5D600EACD16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AF98E772E1FD5D300EACD16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF98ED92E1FDCEE00EACD16 /* ArticleDetail+CoreDataProperties.swift in Sources */,
+				4AF98EDA2E1FDCEE00EACD16 /* ArticleDetail+CoreDataClass.swift in Sources */,
+				4AF98ED52E1FDC5B00EACD16 /* ArticleMetadata+CoreDataProperties.swift in Sources */,
+				4AF98ED62E1FDC5B00EACD16 /* ArticleMetadata+CoreDataClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF98E902E1FD5D600EACD16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF98E9A2E1FD5D600EACD16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AF98E962E1FD5D600EACD16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AF98E7A2E1FD5D300EACD16 /* AirFiAssessment */;
+			targetProxy = 4AF98E952E1FD5D600EACD16 /* PBXContainerItemProxy */;
+		};
+		4AF98EA02E1FD5D600EACD16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AF98E7A2E1FD5D300EACD16 /* AirFiAssessment */;
+			targetProxy = 4AF98E9F2E1FD5D600EACD16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4AF98EA82E1FD5D600EACD16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D4LKPRST7W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AirFiAssessment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.incture.iwm.qa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AF98EA92E1FD5D600EACD16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D4LKPRST7W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AirFiAssessment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.incture.iwm.qa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4AF98EAA2E1FD5D600EACD16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = D4LKPRST7W;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4AF98EAB2E1FD5D600EACD16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = D4LKPRST7W;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AF98EAD2E1FD5D600EACD16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D4LKPRST7W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.incture.com.AirFiAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirFiAssessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AirFiAssessment";
+			};
+			name = Debug;
+		};
+		4AF98EAE2E1FD5D600EACD16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D4LKPRST7W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.incture.com.AirFiAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirFiAssessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AirFiAssessment";
+			};
+			name = Release;
+		};
+		4AF98EB02E1FD5D600EACD16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D4LKPRST7W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.incture.com.AirFiAssessmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirFiAssessment;
+			};
+			name = Debug;
+		};
+		4AF98EB12E1FD5D600EACD16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D4LKPRST7W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.incture.com.AirFiAssessmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirFiAssessment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AF98E762E1FD5D300EACD16 /* Build configuration list for PBXProject "AirFiAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF98EAA2E1FD5D600EACD16 /* Debug */,
+				4AF98EAB2E1FD5D600EACD16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AF98EA72E1FD5D600EACD16 /* Build configuration list for PBXNativeTarget "AirFiAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF98EA82E1FD5D600EACD16 /* Debug */,
+				4AF98EA92E1FD5D600EACD16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AF98EAC2E1FD5D600EACD16 /* Build configuration list for PBXNativeTarget "AirFiAssessmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF98EAD2E1FD5D600EACD16 /* Debug */,
+				4AF98EAE2E1FD5D600EACD16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AF98EAF2E1FD5D600EACD16 /* Build configuration list for PBXNativeTarget "AirFiAssessmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF98EB02E1FD5D600EACD16 /* Debug */,
+				4AF98EB12E1FD5D600EACD16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AF98E732E1FD5D300EACD16 /* Project object */;
+}
